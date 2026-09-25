@@ -1,0 +1,30 @@
+
+> price-compare-api@0.1.0 start
+> nest start
+
+(node:28352) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[32m[Nest] 25752  - [39m2026/09/25, 14:04:07 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 25752  - [39m2026/09/25, 14:04:07 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +18ms[39m
+[32m[Nest] 25752  - [39m2026/09/25, 14:04:07 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 25752  - [39m2026/09/25, 14:04:07 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 25752  - [39m2026/09/25, 14:04:07 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mScrapersModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 25752  - [39m2026/09/25, 14:04:07 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDiscoveryModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 25752  - [39m2026/09/25, 14:04:07 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 25752  - [39m2026/09/25, 14:04:07 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mScheduleModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 25752  - [39m2026/09/25, 14:04:07 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +15ms[39m
+[32m[Nest] 25752  - [39m2026/09/25, 14:04:07 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 25752  - [39m2026/09/25, 14:04:07 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mIngestionModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 25752  - [39m2026/09/25, 14:04:07 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mProductsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 25752  - [39m2026/09/25, 14:04:07 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mProductsController {/products}:[39m[38;5;3m +31ms[39m
+[32m[Nest] 25752  - [39m2026/09/25, 14:04:07 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/products/search, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 25752  - [39m2026/09/25, 14:04:07 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mIngestionController {/ingestion}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 25752  - [39m2026/09/25, 14:04:07 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/ingestion/run, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 25752  - [39m2026/09/25, 14:04:07 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +6ms[39m
+price-compare-api running on http://localhost:3002 
+[33m[Nest] 25752  - [39m2026/09/25, 14:04:26 [33m   WARN[39m [38;5;3m[ShopriteScraper] [39m[33mShoprite search failed for "banana": Request failed with status code 403[39m
+[33m[Nest] 25752  - [39m2026/09/25, 14:04:28 [33m   WARN[39m [38;5;3m[CheckersScraper] [39m[33mCheckers search failed for "banana": Request failed with status code 403[39m
+[95m[Nest] 25752  - [39m2026/09/25, 14:04:28 [95m  DEBUG[39m [38;5;3m[FoodLoversScraper] [39m[95mFoodLoversScraper falling back to the local catalogue for "banana"[39m
+[95m[Nest] 25752  - [39m2026/09/25, 14:04:28 [95m  DEBUG[39m [38;5;3m[PnpScraper] [39m[95mPnpScraper falling back to the local catalogue for "banana"[39m
+[95m[Nest] 25752  - [39m2026/09/25, 14:04:28 [95m  DEBUG[39m [38;5;3m[GameScraper] [39m[95mGameScraper falling back to the local catalogue for "banana"[39m
+[95m[Nest] 25752  - [39m2026/09/25, 14:04:28 [95m  DEBUG[39m [38;5;3m[PnpClothingScraper] [39m[95mPnpClothingScraper falling back to the local catalogue for "banana"[39m
